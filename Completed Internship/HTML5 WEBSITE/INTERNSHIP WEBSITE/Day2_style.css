@@ -1,0 +1,203 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+
+.container {
+  min-width: 50rem;
+  margin: auto;
+}
+
+.quote {
+  border-top: .4rem solid black;
+  border-bottom: .4rem solid black;
+  padding: 1rem;
+  margin: 5rem;
+  text-align: center;
+  color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.description {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+  color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Header */
+
+header {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 13rem;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header .logo {
+  flex-grow: 2;
+  padding-right: 2.5rem;
+}
+
+header li {
+  display: inline;
+  padding-right: 2.5rem;
+}
+
+header li a {
+  text-decoration: none;
+  color: darkorange;
+}
+
+
+header li a:hover {
+  font-size: 2.25rem;
+  text-decoration: underline;
+}
+
+
+/* Banner */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+  background: url("images/getty_nature.jpg") center center no-repeat;
+  background-size: cover;
+  color: crimson;
+}
+
+.banner h1 {
+  padding-top: 1.11rem;
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.banner h2 {
+  padding: .55rem 0;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Work Sans", "Arial", sans-serif;
+  letter-spacing: 2;
+  border-top: .4rem solid white;
+  border-bottom: .4rem solid white;
+}
+
+/* About */
+
+.about {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  background-color: beige;
+}
+
+/* Data */
+
+.data {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60rem;
+  background-color: salmon;
+}
+
+.data .photo-container {
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+/* Photos */
+
+.photo-frame {
+  width: 80%;
+  margin: auto;
+  border-radius: .5rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.photo-frame .photo {
+  overflow: hidden;
+  margin: 0 auto 2.22rem;
+}
+
+.photo-frame .photo img {
+  width: 100%;
+}
+
+.photo-frame .photo-caption {
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: auto;
+}
+
+/* Code */
+
+.mycode {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70rem;
+  background-color: beige;
+}
+
+.mycode .item-container {
+  width: 50%;
+  padding: 3rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mycode img {
+   width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+  display: inline-flex;
+  width: 100%;
+  height: 13rem;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+  font-size: .5rem;
+  font-weight: bold;
+}
+
